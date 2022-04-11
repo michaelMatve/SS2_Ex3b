@@ -515,8 +515,8 @@ std::istream& zich::operator>>(std::istream& My_input, Matrix& mat)
             {
                 throw std::invalid_argument("bad input");
             }
-        }  
         got_char =  char(My_input.get());
+        } 
     }
     zich::Matrix new_mat{numbers,row_counter,colum_counter};
     mat = new_mat;
