@@ -12,6 +12,7 @@ namespace zich
         public:
             //defult constarctor
             Matrix(){};
+            
             // set the matrix to 0
             Matrix(ulong row, ulong colum){
                 this->number_colums = colum;

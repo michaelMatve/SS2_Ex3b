@@ -434,6 +434,7 @@ std::istream& zich::operator>>(std::istream& My_input, Matrix& mat)
 
     got_char =  char(My_input.get());
     //counter for number of row ans colums
+    
     int row_counter =0;
     int colum_counter =0;
     int number_counter = 0;
